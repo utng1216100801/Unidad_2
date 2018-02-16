@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.unidad2.NotificacionesActivity"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_6"
+        android:text="@string/actividades"
+        android:layout_gravity="bottom"
+        android:background="@color/transp1"
+        android:textColor="@color/transp2"
+        android:textSize="@dimen/size_16"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:text="@string/comentario"
+        android:id="@+id/textView3"
+        android:textStyle="italic"
+        android:textSize="@dimen/size_16"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt2"
+        android:text="@string/usuario"
+        android:textColor="@color/color_usuario"
+        android:textSize="@dimen/size_20"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/add_text"
+            android:text="@string/usuario"
+            android:textColor="@color/color_usuario"
+            android:textSize="@dimen/size_20"
+            android:textStyle="bold"
+            android:id="@+id/textView2" />
+
+        <ImageView
+            android:id="@+id/imv_even"
+            android:layout_width="@dimen/size_180"
+            android:layout_height="@dimen/size_270"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/evento1" />
+
+        <EditText
+            android:id="@+id/add_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/imv_comentario"
+            android:layout_toStartOf="@+id/imv_comentario"
+            android:hint="@string/add_comentario" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/comentario"
+            android:id="@+id/imv_comentario"
+            android:background="@color/transp1"/>
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imbtn_comentario2"
+        android:layout_toStartOf="@+id/imbtn_comentario2"
+        android:hint="@string/add_comentario" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/comentario"
+        android:id="@+id/imbtn_comentario2"
+        android:background="@color/transp1"/>
+   </RelativeLayout>
+
+</LinearLayout>

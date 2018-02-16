@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Unidad 2</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="notificaciones">Notificación</string>
+    <string name="reservacion">Reservación</string>
+    <string name="admin">Administrador</string>
+    <string name="desc_ubicacion">Ubicación</string>
+    <string name="nombre">Nombre:</string>
+    <string name="tel">Teléfono:</string>
+    <string name="n_de_personas">N° de personas</string>
+    <string name="fecha">Fecha</string>
+    <string name="reservar">Reservar</string>
+    <string name="name">Name</string>
+    <string name="administrador">Administrador</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="reservaciones">Reservaciones</string>
+    <string name="eventos">Eventos</string>
+    <string name="horarios">Horarios</string>
+    <string name="galeria">Galería</string>
+    <string name="text">Evento 1</string>
+    <string name="numtel">(000)000-0000</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="dd_mm_aaaa">dd/mm/aaaa</string>
+    <string name="actividades">Últimas Actividades</string>
+    <string name="comentario">AMIGOS Y MAÑANA ES VIERNES DE BANDA EN La Josefa Bar Dolores Hidalgo CHECA LAS PROMOS EN COVER Y BARRA. TE ESPERAMOS</string>
+    <string name="usuario">Cesar Romero</string>
+    <string name="add_comentario">Agregar Comentario</string>
+</resources>

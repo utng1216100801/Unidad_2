@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_admin">#fff</color>
+    <color name="transp1">#5c000000</color>
+    <color name="transp2">#ffe3e3e3</color>
+    <color name="color_usuario">#006666</color>
+</resources>
